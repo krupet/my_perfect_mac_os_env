@@ -1,0 +1,22 @@
+:set rnu - set relative line numbers
+c => d+motion+i - delete % and got to INSERT mode
+* - find next occurence of current word
+o/O - new line after/before cursor
+e/w - move to the end/start of the word
+dNl - delete N letters
+0/$ - move to the start/end of the line
+dxd - delete x following lines v - visual mode
+y/Y - yank (copy) selected text / current line
+p - put yanked text
+Yp - duplicate current line
+:Files  %filename% - find and open file
+map ; :Files<CR>
+map <C-o> :NERDTreeToggle<CR>
+
+Split view
+Ctrl + w and then v (for vertical) or h (for horizontal) split view
+:vsplit <filename>
+Ctrl + W and h or l to switch vertically
+
+:reg or :regfollowed show registers and its content
+"0 and p - to past from 0 (buf name) buffer
