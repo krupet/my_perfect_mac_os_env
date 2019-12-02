@@ -20,3 +20,37 @@ Ctrl + W and h or l to switch vertically
 
 :reg or :regfollowed show registers and its content
 "0 and p - to past from 0 (buf name) buffer
+
+From this talk https://www.youtube.com/watch?v=wlR5gYd6um0
+
+u - undo
+. - redo (simply remembers the last command, like dw, and repeats this)
+
+Verbs in Vim:
+d - Delete
+c - Change (detete and enter insert mode)
+> - Indent 
+v - Visually select
+y - Yank (copy)
+
+Nouns in Vim - Moutions
+w - word
+b - back
+2j - down 2 lines
+
+Nouns in Vim - Text objects: iw - "inner word"
+it - "inner tag" (contents of html tag)
+i" - inner quotes
+ip - inner paragraph
+as - as sentance  for example set cursor inside a quotes and type: di" - this will delete a text inside the quotes.
+
+Nouns in Vim - Text objects:
+f, F / t, T - find next character including/excluding (big - goues upwords)
+/ - search
+
+for example cf' - change everithing before single quote
+
+List of atrticles from the talk:
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language https://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/ https://medium.com/@mkozlows/why-atom-cant-replace-vim-433852f4b4d1 https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+
+Togglr case: https://vim.fandom.com/wiki/Switching_case_of_characters
