@@ -2,13 +2,19 @@
 Just a dump repository with .bashrc/.vimrc files for my repository that describes my current environment setup.
 Most stuff relates to zsh/vim/Intellij IDEA setup.
 
+## Apps
+
+Clip Ninja
+[Contexts](https://contexts.co/)
+
+
 ## Intellij idea setup
 
 I prefer [same setup](https://github.com/izhangzhihao/intellij-rainbow-brackets#authors-choice) as author of [Rainbow Brackets](https://github.com/izhangzhihao/intellij-rainbow-brackets) plugin.
 
 I had an issue with hot-keys on mackbook pro with touchbar - some of my usual key combination wasn't working, for example Shift + F6.
 Turnsout the rootcause was in Karabiner-Elements - it has some kind of conflicts with touchbar! So quiting Karabiner helped.
-More detail [here](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000087984-Shift-F6-rename-or-Shift-F-is-invalid)
+More detail [here](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000087984-Shift-F6-rename-or-Shift-F-is-invalid) and [here](https://github.com/pqrs-org/Karabiner-Elements/issues/2201).
 
 Favorite plugins: Rainbow brackets, Nya cat progress bar.
 
